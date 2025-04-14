@@ -1,0 +1,16 @@
+CREATE DATABASE shopping;
+USE shopping;
+
+CREATE TABLE products (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    price DOUBLE
+);
+
+INSERT INTO products (name, price) VALUES
+('T-shirt', 499),
+('Shoes', 1499),
+('Watch', 1999),
+('Backpack', 999),
+('Cap', 299),
+('Sunglasses', 899);
